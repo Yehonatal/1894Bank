@@ -1,5 +1,6 @@
 # 1894Bank
-JavaFx Banking Project
+#### JavaFx Banking Project
+
 This is a JavaFX banking project of me trying to learn Java and implement basic banking operations such as 
 account creation, balance transfer, and transaction history. Following a bunch of tutorials to figure stuff
 out it's probably not done right but is just a fun little project :) plan is to finish if 
