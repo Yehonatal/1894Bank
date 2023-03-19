@@ -1,0 +1,153 @@
+.dashboard {
+    -fx-background-color: $EEEEEE;
+}
+
+.user_name {
+    -fx-font-size: 2.6em;
+    -fx-font-family: "Cablibri Light";
+    -fx-font-weight: regular;
+}
+
+.date_lbl {
+    -fx-text-fill: #AAAAAA;
+    -fx-font-family: "Cablibri Light";
+}
+.section_title {
+    -fx-font-size: 1.2em;
+    -fx-font-family: "Cablibri Light";
+    -fx-font-weight: regular;
+
+}
+
+/* Accounts View*/
+.accounts_view {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10 0 0 10;
+    -fx-padding: 10 0 10 0;
+    -fx-alignment: center;
+    -fx-border-width: 0 1 0 0;
+    -fx-border-color: #DDDDDD;
+    -fx-spacing: 10;
+}
+
+.account {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 10 , 0 , 0 , 10);
+}
+.account_box {
+    -fx-background-color: linear-gradient(to right,  #000, #132A13);
+}
+.account Text {
+    -fx-fill: #FFFFFF;
+    -fx-font-family: "Cablibri Light";
+    -fx-font-size: 1em;
+}
+
+
+.account FontAwesomeIconView {
+    -fx-alignment: center;
+    -fx-fill: #FFFFFF;
+}
+
+.account_gradient {
+    -fx-background-color: linear-gradient(to right, #132A13, #000);
+}
+
+.account_balance {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: Cablibri;
+    -fx-font-size: 3em;
+    -fx-font-weight: bold;
+}
+
+.account_number {
+    -fx-text-fill: gray;
+    -fx-font-size: 1em;
+    -fx-font-family: Cablibri;
+}
+.account_number_safe {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 1.5em;
+    -fx-font-family: Cablibri;
+}
+
+/* Account Summary view */
+.summary_view {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 5 10 5 10;
+    -fx-spacing: 5;
+    -fx-alignment: center_left;
+}
+
+.acc_summary_container {
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-alignment: center_left;
+    -fx-border-color: #AAAAAA;
+    -fx-border-width: 1;
+    -fx-border-style: dashed;
+}
+
+.acc_summary_container Line {
+    -fx-stroke: #AAAAAA;
+}
+
+.income_amount {
+    -fx-text-fill: #00AA00;
+    -fx-font-family: "Cablibri Light";
+    -fx-font-size: 1.5em;
+}
+
+.expense_amount {
+    -fx-text-fill: #AA0000;
+    -fx-font-family: "Cablibri Light";
+    -fx-font-size: 1.5em;
+}
+
+/* Transactions View */
+.transaction_listview {
+    -fx-background-color: #EEEEEE;
+    -fx-border-width: 0 0 0 0;
+    -fx-border-color: #AAAAA;
+}
+.transaction_listview .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+
+.list-cell {
+    -fx-background-color: #EEEEEE;
+    -fx-padding: 15 0 15 0;
+}
+
+/* Send Money*/
+.new_trans_container {
+    -fx-background-color: #EEEEEE;
+    -fx-padding: 15 10 15 10;
+    -fx-spacing: 5;
+    -fx-alignment: center_left;
+}
+
+.new_trans_container Label {
+    -fx-font-family: "Cablibri Light";
+    -fx-font-size: 1em;
+}
+.new_trans_container TextField {
+    -fx-pref-height: 20;
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 4 , 0 , 0 , 4);
+}
+.new_trans_container Button {
+    -fx-pref-width: 230;
+    -fx-font-size: 1em;
+    -fx-font-family: "Cablibri Light";
+    -fx-text-fill: #FFFFFF;
+
+    -fx-background-color: linear-gradient(to right, #132A13, #253F25);
+
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 4 , 0 , 0 , 4);
+}
+.new_trans_container Button:hover {
+    -fx-cursor: hand;
+}
