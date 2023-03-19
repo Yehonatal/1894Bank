@@ -24,7 +24,7 @@
 
 /* Account Selector Choice Box styles */
 .account_selector {
-    -fx-background-color: #ECF39E;
+    -fx-background-color: #36872da2;
 }
 
 .account_selector .label {
@@ -63,6 +63,7 @@
     -fx-font-size: 1.2em;
     -fx-background-radius: 5px;
     -fx-pref-height: 35;
+    -fx-border-color:  #132A13;
 }
 
 .login_form_container Button {
