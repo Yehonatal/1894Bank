@@ -10,27 +10,23 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../Styles/login.css" xmlns="http://javafx.com/javafx/19"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com._1894._1894.Controllers.LoginController">
-   <VBox prefHeight="400.0" prefWidth="200.0" style="-fx-alignment: center;" styleClass="login_logo_container"
-         AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
-      <FontAwesomeIconView glyphName="BANK" size="35" text="" textAlignment="CENTER"/>
-      <Text fill="#ff0606" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="login_logo_container" text="1894BANK"
-            textAlignment="CENTER" wrappingWidth="145.75">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../Styles/login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com._1894._1894.Controllers.LoginController">
+   <VBox prefHeight="400.0" prefWidth="200.0" style="-fx-alignment: center;" styleClass="login_logo_container" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <FontAwesomeIconView glyphName="BANK" size="35" text="" textAlignment="CENTER" />
+      <Text fill="#ff0606" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="login_logo_container" text="1894" textAlignment="CENTER" wrappingWidth="145.75">
          <font>
-            <Font name="Segoe UI Black" size="12.0"/>
+            <Font name="Segoe UI Black" size="14.0" />
          </font>
       </Text>
    </VBox>
-   <VBox layoutX="226.0" layoutY="75.0" prefHeight="360.0" prefWidth="360.0" styleClass="login_form_container"
-         AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
-      <Label id="choice-prompt-text " text="Choose Your Account Type"/>
-      <ChoiceBox fx:id="acc_selector" prefWidth="150.0" styleClass="account_selector"/>
-      <Label fx:id="payee_address_lbl" text="Payee Address:"/>
-      <TextField fx:id="payee_address_field" prefHeight="26.0" prefWidth="215.0" styleClass="input_field"/>
-      <Label fx:id="payee_password" text="Password:"/>
-      <TextField fx:id="password_field" styleClass="input_field"/>
-      <Button fx:id="login_btn" mnemonicParsing="false" text="Log In"/>
+   <VBox layoutX="226.0" layoutY="75.0" prefHeight="360.0" prefWidth="360.0" styleClass="login_form_container" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <Label id="choice-prompt-text " text="Choose Your Account Type" />
+      <ChoiceBox fx:id="acc_selector" prefWidth="150.0" styleClass="account_selector" />
+      <Label fx:id="payee_address_lbl" text="Payee Address:" />
+      <TextField fx:id="payee_address_field" prefHeight="26.0" prefWidth="215.0" styleClass="input_field" />
+      <Label fx:id="payee_password" text="Password:" />
+      <TextField fx:id="password_field" styleClass="input_field" />
+      <Button fx:id="login_btn" mnemonicParsing="false" text="Log In" />
 <!--      <Label fx:id="error_lbl" styleClass="error_lbl" text="Error!"/>-->
    </VBox>
 </AnchorPane>
