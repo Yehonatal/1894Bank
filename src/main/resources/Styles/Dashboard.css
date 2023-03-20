@@ -4,16 +4,16 @@
 
 .user_name {
     -fx-font-size: 2.6em;
-    -fx-font-family: "Cablibri Light";
+    -fx-font-family: "Calibri Light";
 }
 
 .date_lbl {
     -fx-text-fill: #AAAAAA;
-    -fx-font-family: "Cablibri Light";
+    -fx-font-family: "Calibri Light";
 }
 .section_title {
     -fx-font-size: 1.2em;
-    -fx-font-family: "Cablibri Light";
+    -fx-font-family: "Calibri Light";
 }
 
 /* Accounts View*/
@@ -37,7 +37,7 @@
 }
 .account Text {
     -fx-fill: #FFFFFF;
-    -fx-font-family: "Cablibri Light";
+    -fx-font-family: "Calibri Light";
     -fx-font-size: 1em;
 }
 
@@ -53,7 +53,7 @@
 
 .account_balance {
     -fx-text-fill: #FFFFFF;
-    -fx-font-family: Cablibri;
+    -fx-font-family: Calibri;
     -fx-font-size: 3em;
     -fx-font-weight: bold;
 }
@@ -61,12 +61,12 @@
 .account_number {
     -fx-text-fill: gray;
     -fx-font-size: 1em;
-    -fx-font-family: Cablibri;
+    -fx-font-family: Calibri;
 }
 .account_number_safe {
     -fx-text-fill: #FFFFFF;
     -fx-font-size: 1.5em;
-    -fx-font-family: Cablibri;
+    -fx-font-family: Calibri;
 }
 
 /* Account Summary view */
@@ -94,13 +94,14 @@
 
 .income_amount {
     -fx-text-fill: #00AA00;
-    -fx-font-family: "Cablibri Light";
+    -fx-font-family: "Calibri Light";
+    -fx-font-weight: bold;
     -fx-font-size: 1.5em;
 }
 
 .expense_amount {
     -fx-text-fill: #AA0000;
-    -fx-font-family: "Cablibri Light";
+    -fx-font-family: "Calibri Light";
     -fx-font-size: 1.5em;
 }
 
@@ -128,7 +129,7 @@
 }
 
 .new_trans_container Label {
-    -fx-font-family: "Cablibri Light";
+    -fx-font-family: "Calibri Light";
     -fx-font-size: 1em;
 }
 .new_trans_container TextField {
@@ -139,7 +140,7 @@
 .new_trans_container Button {
     -fx-pref-width: 230;
     -fx-font-size: 1em;
-    -fx-font-family: "Cablibri Light";
+    -fx-font-family: "Calibri Light";
     -fx-text-fill: #FFFFFF;
 
     -fx-background-color: linear-gradient(to right, #132A13, #253F25);
@@ -149,3 +150,8 @@
 .new_trans_container Button:hover {
     -fx-cursor: hand;
 }
+.bold {
+     -fx-font-weight: Bold;
+     -fx-font-family: Calibri;
+
+ }

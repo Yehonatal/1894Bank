@@ -1,0 +1,85 @@
+.accounts_view_container {
+    -fx-background-color: #EEEEEE;
+}
+
+.accounts_view_container Text {
+    -fx-text-fill: #888888;
+    -fx-font-family: "Calibri Light";
+}
+
+.accounts_view_container VBox {
+    -fx-border-width: 0 0 0 2;
+    -fx-border-color: #888888;
+    -fx-spacing: 15;
+    -fx-padding: 10 10 10 10;
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 6);
+    -fx-border-radius: 10 10 10 10;
+}
+
+.accounts_view_container VBox Text {
+    -fx-font-size: 1em;
+
+}
+.accounts_view_container VBox Label {
+    -fx-font-size: 1.2em;
+    -fx-font-weight: bold;
+
+}
+
+.accounts_view_container VBox:hover {
+    -fx-background-color: #EEEEEE;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-width: 0 0 0 2;
+}
+
+.cards {
+    -fx-padding: 15;
+    -fx-border-width: 1 1 1 1;
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #EEEEEE;
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 6);
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+}
+.cards:hover {
+    -fx-border-color: #132A13;
+
+}
+
+.cards TextField {
+    -fx-border-width: 1 1 0 0;
+    -fx-border-color: #EEEEEE;
+    -fx-background-color: #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3, 0, 0, 3);
+}
+.cards Button {
+    -fx-background-color: linear-gradient(to right, #132A13, #253F25);
+    -fx-text-fill: #FFFFFF;
+}
+.cards Button:hover {
+    -fx-cursor: hand;
+}
+
+.cards Button FontAwesomeIconView {
+    -fx-fill: #FFFFFF;
+    -fx-alignment: center;
+}
+/* Style for buttons */
+.btn:hover {
+    -fx-border-color: #132A13;
+    -fx-border-radius: 5 5 5 5;
+    -fx-text-fill:  #132A13;
+    -fx-background-color:  #FFFFFF;
+}
+.btn:hover FontAwesomeIconView  {
+    -fx-fill: #132A13;
+}
+
+.bold {
+     -fx-font-weight: Bold;
+     -fx-font-family: Calibri;
+
+ }
+
+
+
