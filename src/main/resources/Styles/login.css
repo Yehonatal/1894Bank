@@ -6,6 +6,7 @@
 .login_logo_container {
     -fx-background-color: #132A13;
     -fx-alignment: top;
+    -fx-background-radius: 0 20 0 0;
 }
 
 .login_logo_container Text {
@@ -47,6 +48,7 @@
 }
 
 .login_form_container {
+    -fx-background-radius: 10 10 10 10;
     -fx-padding: 20;
     -fx-spacing: 15;
     -fx-background-color: #fff;
@@ -63,7 +65,9 @@
     -fx-font-size: 1.2em;
     -fx-background-radius: 5px;
     -fx-pref-height: 35;
-    -fx-border-color:  #132A13;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-width: 1;
+    -fx-border-color: #132A13;
 }
 
 .login_form_container Button {

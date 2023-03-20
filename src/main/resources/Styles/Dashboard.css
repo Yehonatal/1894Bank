@@ -1,11 +1,10 @@
 .dashboard {
-    -fx-background-color: $EEEEEE;
+    -fx-background-color: #EEEEEE;
 }
 
 .user_name {
     -fx-font-size: 2.6em;
     -fx-font-family: "Cablibri Light";
-    -fx-font-weight: regular;
 }
 
 .date_lbl {
@@ -15,8 +14,6 @@
 .section_title {
     -fx-font-size: 1.2em;
     -fx-font-family: "Cablibri Light";
-    -fx-font-weight: regular;
-
 }
 
 /* Accounts View*/
@@ -74,20 +71,21 @@
 
 /* Account Summary view */
 .summary_view {
-    -fx-background-color: #FFFFFF;
+    -fx-background-color: white;
     -fx-padding: 5 10 5 10;
     -fx-spacing: 5;
     -fx-alignment: center_left;
 }
 
 .acc_summary_container {
-    -fx-background-radius: 10;
     -fx-padding: 10;
     -fx-spacing: 10;
     -fx-alignment: center_left;
     -fx-border-color: #AAAAAA;
     -fx-border-width: 1;
     -fx-border-style: dashed;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
 }
 
 .acc_summary_container Line {
@@ -110,7 +108,7 @@
 .transaction_listview {
     -fx-background-color: #EEEEEE;
     -fx-border-width: 0 0 0 0;
-    -fx-border-color: #AAAAA;
+    -fx-border-color: #AAAAAA;
 }
 .transaction_listview .scroll-bar:vertical {
     -fx-scale-x: 0;
