@@ -1,6 +1,7 @@
 .main_menu_container {
     -fx-background-color: #EEE;
     -fx-alignment: center;
+    -fx-padding: 0 0 0 20;
 }
 
 /* Title-logo section */
@@ -39,7 +40,7 @@
 
 
     -fx-pref-height: 40;
-    -fx-pref-width: 115;
+    -fx-pref-width: 150;
 }
 
 .menu_container Button:hover {
@@ -97,5 +98,11 @@
     -fx-fill: #FFFFFF;
 }
 
-
-
+/* Style for buttons */
+.btn:hover {
+    -fx-text-fill:  #FFFFFF;
+    -fx-background-color:  #132A13;
+}
+.btn:hover FontAwesomeIconView  {
+    -fx-fill: #FFFFFF;
+}
