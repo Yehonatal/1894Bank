@@ -2,9 +2,14 @@
 
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com._1894._1894.Controllers.Client.ClientController"
-            prefHeight="400.0" prefWidth="600.0">
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml">
+    <left>
+        <fx:include source="ClientMenu.fxml"/>
+    </left>
 
-</AnchorPane>
+    <center>
+        <fx:include source="Dashboard.fxml"/>
+    </center>
+
+</BorderPane>

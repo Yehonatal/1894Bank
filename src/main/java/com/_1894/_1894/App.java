@@ -1,16 +1,12 @@
 package com._1894._1894;
 
+import com._1894._1894.Models.Model;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class App  extends Application {
     @Override
-    public void start(Stage stage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/Fxml/Client/Dashboard.fxml"));
-        Scene scene = new Scene(fxmlLoader.load());
-        stage.setScene(scene);
-        stage.show();
+    public void start(Stage stage){
+        Model.getInstance().getViewFactory().showLoginWindow();
     }
 }

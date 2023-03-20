@@ -79,7 +79,6 @@
 
 .report_container Text {
     -fx-background-color: #EEFFEE;
-    -fx-font-weight: regular;
     -fx-alignment: center;
     -fx-fill:  #132A13;
 }
