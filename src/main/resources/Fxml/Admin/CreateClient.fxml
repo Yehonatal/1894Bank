@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="dashboard_create_client" stylesheets="@../../Styles/CreateClient.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com._1894._1894.Controllers.Admin.CreateClientController">
+   <VBox layoutX="36.0" layoutY="175.0" prefHeight="487.0" prefWidth="370.0" styleClass="create_container">
+      <Label text="First Name:" />
+      <TextField fx:id="fName_fld" />
+      <Label layoutX="10.0" layoutY="10.0" text="Last Name:" />
+      <TextField fx:id="lName_fld" layoutX="10.0" layoutY="27.0" />
+      <Label layoutX="10.0" layoutY="52.0" text="Password:" />
+      <TextField fx:id="password_fld" layoutX="10.0" layoutY="69.0" />
+      <Label layoutX="10.0" layoutY="94.0" text="Payee Address" />
+      <CheckBox fx:id="pAddress_box" mnemonicParsing="false" />
+      <Label fx:id="pAddress_lbl" prefWidth="319.0" styleClass="payee_address_lbl">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets bottom="2.0" left="15.0" right="2.0" top="2.0" />
+         </padding>
+      </Label>
+   </VBox>
+   <VBox layoutX="441.0" layoutY="175.0" prefHeight="300.0" prefWidth="370.0" styleClass="create_container">
+      <Label text="Accounts:" />
+      <CheckBox fx:id="ch_acc_box" mnemonicParsing="false" text="Add Checking Account" />
+      <Label text="Checking Account Balance:" />
+      <TextField fx:id="ch_amount_fld" />
+      <CheckBox fx:id="sv_acc_box" mnemonicParsing="false" text="Add Saving Account" />
+      <Label text="Saving Account Balance:" />
+      <TextField fx:id="sv_amount_fld" />
+   </VBox>
+   <Text layoutX="38.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="create_title" text="Create New Client Account" />
+   <Button fx:id="create_client_btn" layoutX="626.0" layoutY="500.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="185.0" text="Create New Client" />
+   <Label fx:id="error_lbl" layoutX="626.0" layoutY="538.0" styleClass="error_lbl" />
+</AnchorPane>

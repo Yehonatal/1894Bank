@@ -2,9 +2,13 @@
 
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com._1894._1894.Controllers.Admin.AdminController"
-            prefHeight="400.0" prefWidth="600.0">
+<BorderPane fx:id="admin_parent" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml">
+    <left>
+        <fx:include source="AdminMenu.fxml"/>
+    </left>
+    <center>
+        <fx:include source="CreateClient.fxml"/>
+    </center>
 
-</AnchorPane>
+</BorderPane>

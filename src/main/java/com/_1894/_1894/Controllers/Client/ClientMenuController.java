@@ -1,6 +1,7 @@
 package com._1894._1894.Controllers.Client;
 
 import com._1894._1894.Models.Model;
+import com._1894._1894.Views.ClientMenuOptions;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 
@@ -27,12 +28,12 @@ public class ClientMenuController implements Initializable {
     }
 
     private void onDashboard(){
-        Model.getInstance().getViewFactory().getClientSelectorMenuItem().set("Dashboard");
+        Model.getInstance().getViewFactory().getClientSelectorMenuItem().set(ClientMenuOptions.DASHBOARD);
     }
     private void onTransactions(){
-        Model.getInstance().getViewFactory().getClientSelectorMenuItem().set("Transactions");
+        Model.getInstance().getViewFactory().getClientSelectorMenuItem().set(ClientMenuOptions.TRANSACTIONS);
     }
     private void onAccounts(){
-        Model.getInstance().getViewFactory().getClientSelectorMenuItem().set("Accounts");
+        Model.getInstance().getViewFactory().getClientSelectorMenuItem().set(ClientMenuOptions.ACCOUNTS);
     }
 }
