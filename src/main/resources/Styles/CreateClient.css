@@ -4,8 +4,9 @@
 
 .create_title {
     -fx-font-size: 2.6em;
+    -fx-font-size: 2.6em;
     -fx-font-family: Calibri;
-    -fx-font-weight: bold;
+    -fx-font-weight: Bold;
 }
 
 .create_container{
@@ -13,7 +14,6 @@
        -fx-padding: 30 25 45 25;
        -fx-spacing: 10;
        -fx-effect: dropshadow(three-pass-box, #AAAAAA, 4 , 0 , 0 , 4);
-       -fx-alignment: top;
        -fx-background-radius: 5 5 5 5;
        -fx-border-radius: 5 5 5 5;
        -fx-border-color: #132A13;

@@ -9,7 +9,7 @@
    <ListView fx:id="transactions_listview" layoutX="14.0" layoutY="109.0" prefHeight="625.0" prefWidth="820.0" />
    <Text fx:id="user_name" layoutX="20.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="user_name" text="Transactions" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="30.0">
       <font>
-         <Font name="Calibri Light" size="14.0" />
+         <Font name="Calibre Light" size="14.0" />
       </font>
    </Text>
 </AnchorPane>
