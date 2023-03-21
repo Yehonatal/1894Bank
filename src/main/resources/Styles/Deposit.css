@@ -1,0 +1,54 @@
+
+.deposit{
+    -fx-background-color: #EEEEEE;
+}
+
+.depo_card {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 0 10 10 0;
+
+    -fx-border-width: 1 1 1 5;
+    -fx-border-radius: 0 10 10 0;
+    -fx-border-color: #132A13;
+
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 3 , 0 , 0 , 3);
+}
+
+
+.cards Button, .btn, FontAwesomeIconView {
+    -fx-background-color: linear-gradient(to right, #132A13, #253F25);
+    -fx-fill: #FFFFFF;
+    -fx-text-fill: #FFFFFF;
+}
+.cards Button:hover {
+    -fx-cursor: hand;
+}
+
+.cards Button FontAwesomeIconView {
+    -fx-fill: #FFFFFF;
+    -fx-alignment: center;
+}
+
+.btn:hover {
+    -fx-border-color: #132A13;
+    -fx-border-radius: 5 5 5 5;
+    -fx-text-fill:  #132A13;
+    -fx-background-color:  #FFFFFF;
+}
+.btn:hover FontAwesomeIconView  {
+    -fx-fill: #132A13;
+}
+
+ListView {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10 0 0 10;
+    -fx-border-color: #132A13;
+    -fx-border-width: 0 2 0 0;
+
+}
+
+.depo_title {
+    -fx-font-size: 2em;
+    -fx-font-weight: Bold;
+    -fx-font-family: Calibri;
+}

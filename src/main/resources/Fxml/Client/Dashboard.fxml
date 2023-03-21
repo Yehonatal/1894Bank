@@ -107,4 +107,5 @@
       <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bank of 1894, First JavaFx Project. : " textAlignment="RIGHT" />
       <TextFlow />
    </VBox>
+
 </AnchorPane>
