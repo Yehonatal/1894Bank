@@ -21,12 +21,12 @@
    </VBox>
    <VBox layoutX="226.0" layoutY="75.0" prefHeight="360.0" prefWidth="360.0" styleClass="login_form_container" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
       <Label id="choice-prompt-text " text="Choose Your Account Type" />
-      <ChoiceBox fx:id="acc_selector" prefWidth="150.0" styleClass="account_selector" />
-      <Label fx:id="payee_address_lbl" text="Payee Address:" />
+      <ChoiceBox fx:id="acc_selector" prefWidth="150.0" styleClass="account_selector" translateY="-6.0" />
+      <Label fx:id="payee_address_lbl" text="Payee Address:" translateY="10.0" />
       <TextField fx:id="payee_address_field" prefHeight="26.0" prefWidth="215.0" styleClass="input_field" />
-      <Label fx:id="payee_password" text="Password:" />
-      <TextField fx:id="password_field" styleClass="input_field" />
-      <Button fx:id="login_btn" mnemonicParsing="false" text="LogIn" />
-      <Label fx:id="error_lbl" styleClass="error_lbl"/>
+      <Label fx:id="payee_password" text="Password:" translateY="15.0" />
+      <TextField fx:id="password_field" styleClass="input_field" translateY="5.0" />
+      <Button fx:id="login_btn" mnemonicParsing="false" text="LogIn" translateY="25.0" />
+      <Label fx:id="error_lbl" styleClass="error_lbl" />
    </VBox>
 </AnchorPane>

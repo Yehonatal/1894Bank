@@ -55,24 +55,22 @@
     -fx-background-radius: 10 10 10 10;
     -fx-padding: 20;
     -fx-spacing: 15;
-    -fx-background-color: #fff;
+    -fx-background-color: #EEEEEE;
     -fx-font-family: Calibri;
     -fx-alignment: top_left;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 4 , 0 , 0 , 4);
 }
 
 .login_form_container Label {
-    -fx-font-size: 1.05em;
-    -fx-font-weight: bold;
+    -fx-font-size: 1em;
 }
 
 .input_field {
-    -fx-background-color: #FFFFFF ;
+    -fx-background-color: #FFFFFF;
     -fx-font-size: 1.2em;
     -fx-background-radius: 5px;
     -fx-pref-height: 35;
-    -fx-border-style: hidden hidden solid hidden;
-    -fx-border-width: 1;
-    -fx-border-color: #132A13;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 4 , 0 , 0 , 4);
 }
 
 .login_form_container Button {
@@ -83,11 +81,18 @@
     -fx-pref-height: 35;
     -fx-pref-width: 350;
     -fx-font-family: Calibri;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 4 , 0 , 0 , 4);
     -fx-background-radius: 5px;
 }
 
 .login_form_container Button:hover {
+    -fx-text-fill: #132A13;
+    -fx-background-color: #FFFFFF;
     -fx-cursor: hand;
+    -fx-font-weight: Bold;
+    -fx-border-color: #132A13;
+    -fx-effect: dropshadow(three-pass-box, #AAAAAA, 0, 0 , 0 , 0);
+    -fx-border-radius: 5 5 5 5;
 }
 
 .error_lbl {
