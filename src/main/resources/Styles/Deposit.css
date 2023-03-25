@@ -34,6 +34,7 @@
     -fx-border-radius: 5 5 5 5;
     -fx-text-fill:  #132A13;
     -fx-background-color:  #FFFFFF;
+    -fx-cursor: hand;
 }
 .btn:hover FontAwesomeIconView  {
     -fx-fill: #132A13;
