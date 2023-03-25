@@ -66,7 +66,6 @@
     -fx-border-color: #132A13;
     -fx-text-fill:  #132A13;
     -fx-background-color:  #FFFFFF;
-    -fx-effect: dropshadow(three-pass-box, white, 0, 0, 0, 0);
 }
 
 .alt_menu_btn  FontAwesomeIconView {

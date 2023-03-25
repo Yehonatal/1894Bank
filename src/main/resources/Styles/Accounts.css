@@ -4,7 +4,7 @@
 
 .accounts_view_container Text {
     -fx-text-fill: #888888;
-    -fx-font-family: "Calibri Light";
+    -fx-font-family: "Calibre Light";
 }
 
 .accounts_view_container VBox {
