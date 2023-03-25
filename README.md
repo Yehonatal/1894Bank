@@ -27,6 +27,7 @@ in a couple of day's
 
 
 #### CheckList
+    - Learn Model-View-Controller (MVC)
     - UI [On]
     - Dependecies [Done]
     - Backend 
@@ -38,7 +39,25 @@ in a couple of day's
     - Connect backend with the UI
     - Deploy
 
-### Note 
+## Note
+
+### What is MVC?
+The Model-View-Controller (MVC) is an architectural pattern that separates an 
+application into three main logical components: the model, the view, and
+the controller. Each of these components are built to handle specific
+development aspects of an application. Reasons to use are it going to be scalable and extensible
+projects.
+
+
+#### Controller:
+handles user requests and delegates information between the Model and the View. It only deals with requests, and never handles data or presentation.
+ 
+#### Model:
+data validation, logic, and persistence. It interacts directly with the database to handle the data. The Controller will get all of its data information by asking the Model about the data.
+
+#### View: 
+presenting the information. It will usually render dynamic HTML pages based on the data the model fetches. The Controller is responsible for passing that data between the Model and View, so that the Model and View never have to interact with each other.
+Like text field, button etc.
 
         1: -> Creating Project Structure 
                 Main/Java/project package directory 
